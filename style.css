@@ -1,0 +1,234 @@
+/* Configuraçoes gerais */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1:#48CA34;
+    --color2:#50A044;
+    --color3:#36F517;
+    --color4:#4C7545;
+    --color5:#3B4B39;
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+}
+
+/* Fim das configuraçoes gerais */
+
+/* Corpo */
+body {
+    background-color: rgba(0, 0, 0, 0.205);
+    border-color: aqua;
+    background-image: url(imagens/jardim5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+/* Fim do corpo */
+
+/* ---Header--- */
+.header1 {
+    
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px black;
+    max-width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+}
+
+.imglogo {
+width: 70px;
+border-radius: 30px;
+}
+
+header {
+    
+}
+
+.titulo {
+    
+    font-weight: bold;
+    font-size: 2.7em;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.637);
+    color: var(--color1);
+}
+
+
+.paragrafo {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+strong {
+    color: rgba(255, 0, 0, 0.801);
+    text-shadow: 4px 4px 4px black;
+}
+/* ---Fim do Header--- */
+
+/* ---Nav-Bar--- */
+.navbar {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px black; 
+}
+
+.menu:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 1vh;
+    text-shadow: 3px 3px 3px black;
+    transition: 0.5s;
+}
+/* ---LINKS--- */
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: var(--color4);
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.644);
+    border-style: groove;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bolder;
+}
+
+/* ---FIM DOS LINKS--- */
+/* ---ICONES REDES SOCIAIS--- */
+#icone {
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
+}
+#facebook:hover {
+    background-color: rgba(4, 0, 255, 0.836);
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+}
+#instagram:hover {
+    background-color: rgba(231, 28, 170, 0.795);
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer; 
+}
+#whatsapp:hover {
+    background-color: rgba(0, 255, 42, 0.795);
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* ---FIM DOS ICONES DAS REDES SOCIAIS--- */
+
+/* Serviços */
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#serviços {
+    margin-right: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2.7em;
+    font-style: italic;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.637);
+    color: var(--color1);
+    background-color: rgba(0, 0, 0, 0.671);
+    border: 1px solid rgb(252, 249, 249);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+
+li {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.3em;
+    box-shadow: 5px 5px 5px black; 
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    background-color: rgba(0, 0, 0, 0.671);
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+/* ---MAIN--- */
+main {
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px black;
+    backdrop-filter: blur(4px);
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.imagem {   
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    width: 35vh;
+}
+
+.video {
+    height: 50dvh;
+    width: 50dvh;
+    border: solid;
+    background-color: black;
+    border-radius: 50px;
+}
+/* Rodape */
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    margin: 15px;
+}
+
+#item {
+    color: rgba(243, 9, 9, 0.884);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 5px 5px 5px black;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+}
+    
