@@ -15,9 +15,6 @@
     --color5:#3B4B39;
 }
 
-@media (min-width: 200px) and (max-width: 300px) {
-}
-
 /* Fim das configuraçoes gerais */
 
 /* Corpo */
@@ -27,7 +24,7 @@ body {
     background-image: url(imagens/jardim5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
@@ -50,10 +47,6 @@ body {
 .imglogo {
 width: 70px;
 border-radius: 30px;
-}
-
-header {
-    
 }
 
 .titulo {
@@ -85,7 +78,8 @@ strong {
     padding: 40px;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px black; 
-}
+    }
+
 
 .menu:hover {
     background-color: rgba(255, 255, 255, 0.575);
