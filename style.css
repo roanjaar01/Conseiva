@@ -131,6 +131,21 @@ nav > a {
     transition: 0.5s;
     cursor: pointer;
 }
+
+#facebook {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+#instagram {
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+}
+
+#whatsapp {
+    background-color: rgba(60, 255, 0, 0.63);
+    border-radius: 5px;
+}
 /* ---FIM DOS ICONES DAS REDES SOCIAIS--- */
 
 /* Serviços */
