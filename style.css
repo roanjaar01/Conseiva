@@ -107,9 +107,9 @@ nav > a {
   text-decoration: none;
   font-weight: bolder;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.644);
+  
   border-radius: 5px;
-  box-shadow: 3px 3px 3px black;
+  
 }
 #facebook:hover {
     background-color: rgba(4, 0, 255, 0.836);
@@ -183,11 +183,11 @@ main {
 }
 
 .container {
-    display: flex; 
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+   display: inline-block;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
 
 .imagem {   
@@ -203,6 +203,12 @@ main {
     border: solid;
     background-color: black;
     border-radius: 50px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Rodape */
 
