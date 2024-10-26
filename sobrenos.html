@@ -14,10 +14,18 @@
     --color5:#3B4B39;
 }
 
+@media screen and (min-width: 500px) (max-width: 768px)
+{
+.container1 {
+    width: 100px;
+}
+}
+    
 
 .titulo{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: var(--color1);
     font-size: 2.6em;
     font-weight: bold;
@@ -27,22 +35,22 @@
     color: aliceblue;
     line-height: 1.5em;
     font-size: 1.5em;
+    
 }
 
 .container {
     padding: 20px;
     border-radius: 20px;
-    width: 500px;
     background-color: rgba(0, 0, 0, 0.795);
-    
     box-shadow: 10px 10px 10px black;
 }
 
 .container1 {
     display: flex;
-    margin: 150px;
+    margin: 100px;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 body {
@@ -50,10 +58,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100dvh;
-    width: 100dvh;
-    width: 100%;
-    overflow: hidden;
+    background-attachment: fixed;
+    
 }
 
     

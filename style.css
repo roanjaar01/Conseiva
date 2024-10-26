@@ -107,7 +107,7 @@ nav > a {
   text-decoration: none;
   font-weight: bolder;
   display: inline-block;
-  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.644);
   border-radius: 5px;
   box-shadow: 3px 3px 3px black;
 }
@@ -183,11 +183,9 @@ main {
 }
 
 .container {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    display: flex; 
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     
 }
